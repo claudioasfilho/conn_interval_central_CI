@@ -2,13 +2,12 @@
 
 The Bluetooth example is a Central device that scans and connects to up to 32 peripheral devices which advertise a specific service **"CCCC"**. 
 
-The Peripheral Device application can be found at: https://github.com/claudioasfilho/bt_AM_Conn_EN
+The Peripheral Device application can be found at: https://github.com/claudioasfilho/_32Con-EndNode412
 
-Once it finds the device, it will write 6 bytes to the characteristic "C165393CF3374EFD8C8396226D85DE6E" and wait for the peripheral device to write back to its characteristic "AABB". 
+Once it finds the device, it will subscribe to notifications.
 
-It will printout the data received and the elapsed time in ms between writting and reading.  An example of the output can be found at **Example_Serial_output.txt**.
+By Pressing PB0 it will start the test, where the Peripheral nodes will send a send a substantial amount of data and after the TEST_TIMEOUT runs out, it will printout on the UART a report showing how much data was received from each connected node and its Upstream throughput.
 
-It requires PB0 button to be pressed in order to initiate the read and write process. 
 
  **Please note that if the Radio Board used is not the BRD4180A, it will be required to change the button port and pin definitions on app.c.**
 
