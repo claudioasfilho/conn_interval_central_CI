@@ -1,0 +1,92 @@
+Stack version: 4.2.0
+BLE address: 00:0d:6f:0a:50:12
+Connection interval set to 100 msec
+Scanning started
+Connection request sent, handle: 1
+Connection opened, number of connections: 1, connection handle: 1
+connection 1, PHY: 1
+Connection request sent, handle: 2
+Connection opened, number of connections: 2, connection handle: 2
+connection 2, PHY: 1
+Connection request sent, handle: 3
+Connection opened, number of connections: 3, connection handle: 3
+connection 3, PHY: 1
+Connection request sent, handle: 4
+Connection opened, number of connections: 4, connection handle: 4
+connection 4, PHY: 1
+Connection request sent, handle: 5
+Connection opened, number of connections: 5, connection handle: 5
+connection 5, PHY: 1
+Connection request sent, handle: 6
+Connection opened, number of connections: 6, connection handle: 6
+connection 6, PHY: 1
+Connection request sent, handle: 7
+Connection opened, number of connections: 7, connection handle: 7
+connection 7, PHY: 1
+Connection request sent, handle: 8
+Connection opened, number of connections: 8, connection handle: 8
+connection 8, PHY: 1
+Connection request sent, handle: 9
+Connection opened, number of connections: 9, connection handle: 9
+connection 9, PHY: 1
+Connection request sent, handle: 7
+connection 1, PHY: 2
+connection 2, PHY: 2
+Connection request sent, handle: 7
+connection 3, PHY: 2
+connection 4, PHY: 2
+Connection opened, number of connections: 9, connection handle: 7
+connection 7, PHY: 1
+Connection request sent, handle: 10
+connection 5, PHY: 2
+connection 6, PHY: 2
+Connection opened, number of connections: 10, connection handle: 10
+connection 10, PHY: 1
+connection 8, PHY: 2
+connection 9, PHY: 2
+connection 7, PHY: 2
+connection 10, PHY: 2
+Scanning Period concluded
+Number of devices connected = 10
+Press PB0 to start the Test
+
+Sending data to connection: 1
+Sending data to connection: 2
+Sending data to connection: 3
+Sending data to connection: 4
+Sending data to connection: 5
+Sending data to connection: 6
+Sending data to connection: 7
+Sending data to connection: 8
+Sending data to connection: 9
+Sending data to connection: 10
+Latency for Connection 1: 127 msec
+0000010FFFFF0F0C0002FFFF60A423C998D7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 10: 120 msec
+000000FDFFFF1C0A0005FFFF588E81A54D5EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 4: 155 msec
+0000115CFFFF8F760242FFFF842E1431B945FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 8: 158 msec
+00000135FFFF100A0000FFFF000B57A9066FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 7: 177 msec
+0000016EFFFF09060000FFFF000B57BE4EDAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 6: 197 msec
+00000163FFFF17100000FFFF842E1431BD84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 5: 216 msec
+000000F8FFFF0806000AFFFF842E1431BD6BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 9: 220 msec
+00000103FFFF0806000DFFFF842E1431CA1CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 3: 347 msec
+000000F1FFFF0D050000FFFF842E1431CB0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Latency for Connection 2: 845 msec
+00000125FFFF13090000FFFF60A423D454ADFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF

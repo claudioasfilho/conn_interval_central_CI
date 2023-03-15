@@ -1,0 +1,60 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: conn_interval_central_CI
+label: conn_interval_central_CI
+description: |
+  An extended SoC empty project, which already contains te Log component, a LED and a button instance, a minimal button handler, and two utility functions for parsing advertisement.
+category: Custom
+package: Custom
+quality: production
+source:
+- {path: main.c}
+- {path: app.c}
+tag: ['hardware:rf:band:2400']
+include:
+- path: ''
+  file_list:
+  - {path: app.h}
+sdk: {id: gecko_sdk, version: 4.1.2}
+toolchain_settings: []
+component:
+- {id: bluetooth_feature_ll_even_scheduling}
+- {id: brd4181b}
+- instance: [btn0]
+  id: simple_button
+- {id: bluetooth_feature_gatt_server}
+- {id: bluetooth_feature_sm}
+- {id: simple_timer}
+- {id: bluetooth_feature_legacy_advertiser}
+- {id: mpu}
+- {id: custom_soc_default}
+- {id: gatt_configuration}
+- instance: [led0]
+  id: simple_led
+- {id: bluetooth_stack}
+- {id: brd4002a}
+- {id: rail_util_pti}
+- {id: bluetooth_feature_gatt}
+- {id: bluetooth_feature_legacy_scanner}
+- {id: app_log}
+- {id: bluetooth_feature_connection}
+- instance: [vcom]
+  id: iostream_usart
+- {id: bluetooth_feature_system}
+- {id: bluetooth_feature_scanner}
+- {id: component_catalog}
+- {id: bootloader_interface}
+- {id: app_assert}
+- {id: EFR32MG21A010F1024IM32}
+configuration:
+- {name: SL_STACK_SIZE, value: '2752'}
+- {name: SL_HEAP_SIZE, value: '9200'}
+- condition: [psa_crypto]
+  name: SL_PSA_KEY_USER_SLOT_COUNT
+  value: '0'
+- {name: SL_BOARD_ENABLE_VCOM, value: '1'}
+- {name: SL_IOSTREAM_USART_VCOM_RESTRICT_ENERGY_MODE_TO_ALLOW_RECEPTION, value: '0'}
+ui_hints:
+  highlight:
+  - {path: app.c, focus: true}
+  - {path: config/btconf/gatt_configuration.btconf}
+
